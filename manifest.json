@@ -1,0 +1,7 @@
+{
+	"name": "F8 Fix",
+	"version": "1.0.0",
+	"description": "Fixes the debugger hotkey. Useful for grabbing selectors.",
+	"author": "Kyza",
+	"license": "MIT"
+}
