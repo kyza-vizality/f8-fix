@@ -1,11 +1,11 @@
 const { Plugin } = require('@vizality/entities');
 
 module.exports = class F8Fix extends Plugin {
-  onStart () {
+  start () {
     document.body.addEventListener('keyup', this.keyup);
   }
 
-  onStop () {
+  stop () {
     document.body.removeEventListener('keyup', this.keyup);
   }
 
